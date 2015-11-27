@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+body
+{
+	background-image: url("http://freephotos.atguru.in/hdphotos/real-flowers-backgrounds/flower-background-2014-3.jpg");
+}
+h1 {
+	color: red;
+}
+h3 {
+	font-family: cursive;
+	color: green;
+}
+p {
+	letter-spacing: 0px;
+	line-height: 25px;
+	
+}

@@ -1,0 +1,275 @@
+@CHARSET "UTF-8";
+/* Dcrazed style */
+.headline{text-align:center;margin:20px 0 75px}
+.headline img{display:block;margin:0 auto 20px}
+.headline > h6{display:inline-block;width:20px;border-bottom:3px solid #e33000;margin-bottom:-11px;padding:0}
+.headline h1{display:inline-block;border-bottom:1px solid #d0d0d0;line-height:40px;font-weight:300;text-transform:uppercase;margin:0 -3px;padding:0 12px}
+.headline h1 h6{color:#e33000;padding:0}
+
+
+
+*{
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+}
+body{
+  padding:0;
+  margin:0;
+ background: url(http://subtlepatterns.com/patterns/scribble_light.png) #FFF; 
+  font-size:62.5%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#wrap{
+  width:90%;
+  margin:20px auto;
+}
+#accordian{
+  width:100%;
+}
+#accordian .number{
+  width:50px;
+  height:50px;
+  background:#fff;
+  color:#888;
+  font-size:36px;
+  text-align: center;
+  border-radius:50%;
+  float:left;
+}
+#accordian .step{
+  width:100%;
+  height:63px;
+  background:#80c0ff;
+  color:#FFF;
+  padding-left:1%;
+  padding-top:5px;
+  border-bottom:3px solid #d9d9d9;
+  border-radius:2px;
+  float:left;
+}
+#accordian .title{
+  float:left;
+  width:80%;
+  height:50px;
+  margin-left:1%;
+  font-size:1em;
+  font-weight:300;
+}
+#accordian .title h1{
+  font-size:2em;
+  font-weight:400;
+  margin-top:10px;
+
+}
+#accordian .modify{
+  float:left;
+  width:40px;
+  height:40px;
+  color:#aaa;
+  background:#FFF;
+  text-align:center;
+  font-size:4em;
+  border-radius:50%;
+  margin-top:5px;
+  padding-top:0px;
+  cursor:pointer;
+}
+#accordian .modify i{
+  margin-top:0px;
+  display:block;
+}
+#accordian .content{
+  padding:2em 2em;
+  width:100%;
+  margin:0 auto;
+  background:#FFF;
+  height:auto;
+  display:block;
+  float:left;
+}
+#accordian .content label{
+  font-size:1.3em;
+}
+#accordian .content input{
+  padding:10px 15px;
+  border:1px solid #ccc;
+  border-radius:3px;
+  display:inline-block;
+  font-size: 2em;
+}
+#accordian .content button{
+  display:block;
+  float:right;
+  background:#80c0ff;
+  width:200px;
+  border:0;
+  padding:5px 15px;
+  font-size:1.6em;
+  color:#FFF;
+  border-bottom:3px solid #4da7ff;
+  border-radius:2px;
+  clear:both;
+}
+#accordian .content .continue{
+  display:block;
+  float:right;
+  background:#80c0ff;
+  width:200px;
+  border:0;
+  padding:5px 15px;
+  font-size:1.6em;
+  color:#FFF;
+  border-bottom:3px solid #4da7ff;
+  border-radius:2px;
+  clear:both;
+  text-align:center;
+  text-decoration: none;
+  margin-top:15px;
+}
+#accordian #address label{
+  width:0px;
+  
+}
+
+#accordian .select{
+  width: 261px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  display: inline-block;
+  margin-left:0;
+  margin-bottom: 5px;
+  margin-top:5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  display: inline-block;
+}
+#accordian .country_options label,
+#accordian .state_options label{
+  background: #80c0ff;
+  color: white;
+  padding: 4px 6px;
+  z-index: 2;
+  text-transform: uppercase;
+  top: 5px;
+  right: 100%;
+  width: 100%;
+  margin-right: -100%;
+  bottom: 8px;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+#accordian .state_options select,
+#accordian .country_options select{
+  background: transparent;
+  display:inline-block;
+  width: 100%;
+  padding: 5px;
+  font-size: 2em;
+  line-height: 1;
+  border: 0;
+  border-radius:0;
+  height: 40px;
+}
+#accordian #address label.state,
+#accordian #address label.country{
+  display:block;
+  float: right;
+}
+#accordian #address input[type="checkbox"]{
+  width:30px;
+}
+#accordian #address label.same,
+div.go-right input:focus + label.same{
+  width:300px;
+  padding:0 30px;
+  margin-right:0;
+  top:0;
+  left:30px;
+  background:transparent;
+  color:initial;
+  text-transform:uppercase;
+}
+
+
+
+#accordian #payment #card_number{
+  width:100%;
+}
+#accordian .left,
+#accordian .right{
+  width:50%;
+  float:left;
+}
+#accordian #payment label{
+  display:inline-block;
+}
+#accordian #payment .expiry{
+  margin-top:5px;
+}
+#accordian #payment label.exp_date{
+  margin-right:0;
+  background: #80c0ff;
+  color: white;
+  padding: 4px 6px;
+  z-index: 2;
+  text-transform: uppercase;
+  right: 100%;
+  width: 100%;
+  margin-right: -100%;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  width:70px;
+  height:40px;
+  top:5px;
+}
+#accordian #payment .month_select,
+#accordian #payment .year_select{
+  width: 100px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  display: inline-block;
+}
+#accordian #payment span.divider{
+  font-size: 2em;
+  display: inline-block;
+  padding-left:5px;
+  padding-right:5px;
+  margin-top:-10px;
+}
+#accordian .month_select select,
+#accordian .year_select select{
+  background: transparent;
+  display:inline-block;
+  width: 100%;
+  padding: 5px;
+  font-size: 2em;
+  line-height: 1;
+  border: 0;
+  border-radius:0;
+  height: 40px;
+}
+#accordian #payment .sec_num,
+#accordian #payment .expiry{
+  display:block;
+  /* float:left; */
+}
+#accordian #payment .sec_num{
+  margin-top:5px;
+}
+#accordian .credit_card{
+  padding:3em 1em;
+}
+#accordian #payment .sec_num input{
+}
+
+
+@media(max-width:768px){
+  #accordian .left, #accordian .right {
+      width: 100%;
+      float: left;
+  }
+}

@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+h1 {
+	text-align: center;
+	color: black;
+	font-style: normal;
+	font-weight: bold;
+	font-stretch: expanded;
+}
+h2{
+text-align: center;
+color: blue;
+font-style: italic;
+	
+}
+body {
+	background-image : url("http://www.dvd-ppt-slideshow.com/images/ppt-background/background-11.jpg");
+}
